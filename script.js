@@ -4,7 +4,7 @@ const gif = document.getElementById("gif");
 const question = document.getElementById("question");
 const buttons = document.querySelector(".buttons");
 
-let newGifUrl = "https://media.tenor.com/Y3bJsdez11QAAAAj/cute-spin-cute-bubu.gif"; "
+let newGifUrl = "https://media.tenor.com/Y3bJsdez11QAAAAj/cute-spin-cute-bubu.gif"; 
 
 noBtn.addEventListener("mouseover", function () {
     const maxWidth = window.innerWidth - noBtn.offsetWidth;
