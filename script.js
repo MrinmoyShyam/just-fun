@@ -4,7 +4,7 @@ const gif = document.getElementById("gif");
 const question = document.getElementById("question");
 const buttons = document.querySelector(".buttons");
 
-let newGifUrl = "https://media.tenor.com/Y3bJsdez11QAAAAj/cute-spin-cute-bubu.gif"; // Change this to the GIF you want to display after clicking "Yes"
+let newGifUrl = "https://media.tenor.com/Y3bJsdez11QAAAAj/cute-spin-cute-bubu.gif"; "
 
 noBtn.addEventListener("mouseover", function () {
     const maxWidth = window.innerWidth - noBtn.offsetWidth;
@@ -18,13 +18,13 @@ noBtn.addEventListener("mouseover", function () {
 });
 
 yesBtn.addEventListener("click", function () {
-    // Change the GIF
+    
     gif.src = newGifUrl;
 
-    // Update the text above the GIF
+    
     question.innerText = "Me too!";
 
-    // Add the text below the GIF
+    
     let talkText = document.createElement("p");
     talkText.innerText = "Let's talk";
     talkText.style.marginTop = "20px";
@@ -32,6 +32,6 @@ yesBtn.addEventListener("click", function () {
     talkText.style.fontWeight = "bold";
     document.querySelector(".gif-container").appendChild(talkText);
 
-    // Hide the buttons after clicking "Yes"
+    
     buttons.style.display = "none";
 });
