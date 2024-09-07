@@ -29,7 +29,7 @@ button {
     position: relative;
 }
 #yes-btn {
-    background-color: #ff004d; /* Rose Red Color */
+    background-color: #ff004d; 
     color: white;
     border: none;
     border-radius: 20px;
